@@ -8,3 +8,140 @@ body {
   margin: 0;
   font-family: 'Bai Jamjuree', sans-serif;
 }
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: .85rem;
+  color:  rgb(183, 183, 185);
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+svg {
+  margin-bottom: 2.5em;
+}
+
+button {
+  display: flex;
+  margin: 2em auto;
+  padding: 1em 6em;
+  border-radius: 50px; 
+  border: none;
+  letter-spacing: 1px;
+}
+
+footer {
+  background: hsl(180, 3%, 93%);
+}
+
+main {
+  margin: 2.4em;
+}
+
+header {
+  background-image: url('../images/bg-header-mobile.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  padding-top: 9em;
+  padding-bottom: 2em;
+}
+
+.hero,
+.keep-track,
+.access,
+.supercharge,
+.clipboard,
+footer {
+  text-align: center;
+}
+
+.hero-description {
+  font-size: .85rem;
+  margin: 1em 0;
+  color: rgb(183, 183, 185);
+}
+
+.ios,
+.mac {
+  font-size: .85rem;
+  color: #fff;
+}
+
+.ios {
+  background: hsl(171, 66%, 44%);
+  border-bottom: 2px solid hsl(171, 70%, 33%);
+  box-shadow: 2px 5px 16px 0px #91e2d2, 7px -1px 2px -1px rgba(0, 0, 0, 0);
+}
+
+.mac {
+  background: hsl(233, 100%, 69%);
+  border-bottom: 2px solid hsl(233, 49%, 50%);
+  box-shadow: 2px 5px 16px 0px #acd5f6, 7px -1px 2px -1px rgba(0, 0, 0, 0);
+  margin-bottom: 10em;
+}
+
+.keep-track-description {
+  margin: 1em 0 4em;
+}
+
+.kt-subsection-title {
+  margin: 2.5em 0 1em;
+  text-transform: capitalize;
+}
+
+span{
+  text-transform: lowercase;
+}
+
+.access {
+  margin: 10em 0 6em;
+}
+
+.access-subsection {
+  margin: 1em 0 3.5em;
+}
+
+.supercharge-subsection {
+  margin: 1em 0 5em;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6em;
+}
+
+.logo {
+  width: 6em;
+  margin: 2em auto;
+}
+
+.clipboard-desc {
+  margin: 1em 0 3em;
+}
+
+.footer-logo {
+ 
+}
+
+.list-items {
+  margin-left: auto; 
+	margin-right: auto; 
+}
+
+.list-item {
+  list-style: none;
+  
+}
