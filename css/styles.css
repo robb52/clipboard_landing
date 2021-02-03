@@ -133,15 +133,20 @@ span{
 }
 
 .footer-logo {
- 
+ margin-top: 3em;
 }
 
 .list-items {
-  margin-left: auto; 
-	margin-right: auto; 
+  margin: 0 2.5em 0 0;
 }
 
 .list-item {
   list-style: none;
-  
+  padding: 1em 0;  
 }
+
+i {
+  padding: 1.5em 1em;
+  font-size: 1.3rem;
+}
+
