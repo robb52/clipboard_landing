@@ -33,6 +33,7 @@ svg {
 
 button {
   display: flex;
+  flex-direction: row;
   margin: 2em auto;
   padding: 1em 6em;
   border-radius: 50px; 
@@ -134,6 +135,7 @@ span{
 
 .footer-logo {
  margin-top: 3em;
+ margin-bottom: 1em;
 }
 
 .list-items {
@@ -150,3 +152,37 @@ i {
   font-size: 1.3rem;
 }
 
+@media(min-width: 700px) {
+  main {
+    padding: 0 6em;
+    
+  }
+  button {
+    display: inline-block;
+    padding: 1em 3.5em; 
+  }
+
+  .mac {
+    margin-left: 3em;
+  }
+
+  .keep-img {
+    width: 500px;
+    margin-left: -9em;
+  }
+
+  .keep-subsection {
+    display: flex;
+  }
+
+  .keep-content {
+    text-align: left;
+    margin: 0 4em 0  5em;
+  }
+
+  .access-img {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+}
